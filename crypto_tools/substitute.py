@@ -1,4 +1,5 @@
 # substitute tools for crypto root me challenge, write function here
+import string 
 
 def decode(message, shift):
   ascii_codes = [ord(x) for x in message.lower()]

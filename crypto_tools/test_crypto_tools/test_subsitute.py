@@ -37,3 +37,7 @@ class SubstituteTest(unittest.TestCase):
 		self.assertIn(expected_res_in, res)
 
 
+if __name__ == '__main__':
+	unittest.main()
+
+
